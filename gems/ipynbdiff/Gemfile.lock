@@ -16,11 +16,11 @@ GEM
     ast (2.4.2)
     benchmark-memory (0.2.0)
       memory_profiler (~> 1)
-    bigdecimal (3.1.9)
+    bigdecimal (4.1.2)
     binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
     coderay (1.1.3)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.3.7)
     debug_inspector (1.1.0)
     diff-lcs (1.5.0)
     diffy (3.4.2)
@@ -33,14 +33,14 @@ GEM
       rubocop-rspec (~> 2.22)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    json (2.6.3)
+    json (2.21.2)
     memory_profiler (1.0.0)
     method_source (1.0.0)
     minitest (5.18.1)
-    oj (3.16.10)
+    oj (3.17.3)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
-    ostruct (0.6.1)
+    ostruct (0.6.3)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -53,11 +53,11 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     racc (1.7.1)
-    rack (3.1.16)
+    rack (3.1.21)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.8.1)
-    rexml (3.3.9)
+    rexml (3.4.2)
     rspec (3.11.0)
       rspec-core (~> 3.11.0)
       rspec-expectations (~> 3.11.0)
@@ -143,10 +143,10 @@ CHECKSUMS
   activesupport (7.0.8.7) sha256=df4702375de924aae81709c831605317c5417f0bd9e502a0373ff84a067204ff
   ast (2.4.2) sha256=1e280232e6a33754cde542bc5ef85520b74db2aac73ec14acef453784447cc12
   benchmark-memory (0.2.0) sha256=ca1e436433b09535ee8f64f80600a5edb407cff1f6ac70e089ca238118e6ab5c
-  bigdecimal (3.1.9) sha256=2ffc742031521ad69c2dfc815a98e426a230a3d22aeac1995826a75dabfad8cc
+  bigdecimal (4.1.2) sha256=53d217666027eab4280346fba98e7d5b66baaae1b9c3c1c0ffe89d48188a3fbd
   binding_of_caller (1.0.0) sha256=3aad25d1d538fc6e7972978f9bf512ccd992784009947c81633bea776713161d
   coderay (1.1.3) sha256=dc530018a4684512f8f38143cd2a096c9f02a1fc2459edcfe534787a7fc77d4b
-  concurrent-ruby (1.2.2) sha256=3879119b8b75e3b62616acc256c64a134d0b0a7a9a3fcba5a233025bcde22c4f
+  concurrent-ruby (1.3.7) sha256=4412caec3a5ea2e5fdc52076724c071a81f2c0593d83b2ac8cbb8ca63b3151b0
   debug_inspector (1.1.0) sha256=eaa5a2d0195e1d65fb4164e8e7e466cca2e7eb53bc5e608cf12b8bf02c3a8606
   diff-lcs (1.5.0) sha256=49b934001c8c6aedb37ba19daec5c634da27b318a7a3c654ae979d6ba1929b67
   diffy (3.4.2) sha256=36b42ffbe5138ddc56182107c24ad8d6b066ecfd2876829f391e3a4993d89ae1
@@ -154,22 +154,22 @@ CHECKSUMS
   gitlab-styles (10.1.0) sha256=f42745f5397d042fe24cf2d0eb56c995b37f9f43d8fb79b834d197a1cafdc84a
   i18n (1.14.1) sha256=9d03698903547c060928e70a9bc8b6b87fda674453cda918fc7ab80235ae4a61
   ipynbdiff (0.4.8)
-  json (2.6.3) sha256=86aaea16adf346a2b22743d88f8dcceeb1038843989ab93cda44b5176c845459
+  json (2.21.2) sha256=1f1d3b7cf2b3ba1a69beca0bb6db13d5438b80bff3cd54cdaaa620b9b07c1c6a
   memory_profiler (1.0.0) sha256=fbb8c010822f79dd3f346f79297eeb8f1dc25c1c9e8dd9db8694649f82531869
   method_source (1.0.0) sha256=d779455a2b5666a079ce58577bfad8534f571af7cec8107f4dce328f0981dede
   minitest (5.18.1) sha256=ab5ee381871aaddc3a6aa2a6abcab5c4590fec9affc20947d63f312a0fe4e9cd
-  oj (3.16.10) sha256=7f26bed974e331e16d579b470b0865010757f6fe6ee30ea9b67df653fbe13d7c
-  ostruct (0.6.1) sha256=09a3fb7ecc1fa4039f25418cc05ae9c82bd520472c5c6a6f515f03e4988cb817
+  oj (3.17.3) sha256=ebe3967b0bb7ac4f206561d0d9ac8875b9973f778600d7b61b5c355662a707ed
+  ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   parallel (1.23.0) sha256=27154713ad6ef32fa3dcb7788a721d6c07bca77e72443b4c6080a14145288c49
   parser (3.2.2.3) sha256=10685f358ab36ffea2252dc4952e5b8fad3a297a8152a85f59adc982747b91eb
   proc_to_ast (0.1.0) sha256=92a73fa66e2250a83f8589f818b0751bcf227c68f85916202df7af85082f8691
   pry (0.14.1) sha256=99b6df0665875dd5a39d85e0150aa5a12e2bb4fef401b6c4f64d32ee502f8454
   racc (1.7.1) sha256=af64124836fdd3c00e830703d7f873ea5deabde923f37006a39f5a5e0da16387
-  rack (3.1.16) sha256=efb5606c351efc56b85b10c3493055d0d35209d23f44792ec4e1183eb0234635
+  rack (3.1.21) sha256=285c5f228eef30dbd1dc147859a880b71bc44412fea575cc58c28797f2db9777
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
   rake (13.0.6) sha256=5ce4bf5037b4196c24ac62834d8db1ce175470391026bd9e557d669beeb19097
   regexp_parser (2.8.1) sha256=83f63e2bfae3db38f988c66f114485140ff1791321fd827480bc75aa42cacb8c
-  rexml (3.3.9) sha256=d71875b85299f341edf47d44df0212e7658cbdf35aeb69cefdb63f57af3137c9
+  rexml (3.4.2) sha256=1384268554a37af5da5279431ca3f2f37d46f09ffdd6c95e17cc84c83ea7c417
   rspec (3.11.0) sha256=8907f32e5c3095724e54c143e9cfc4df37079be349343dab9029becdb259bea5
   rspec-core (3.11.0) sha256=46317850396fea47e6793dd5a7606c0816aa38f5149f4cd5de308495b89b1085
   rspec-expectations (3.11.0) sha256=a3c0859805bdfd88bef90bf050cbb4a04f01fe9e0ad24e5b77571e1abd823100
