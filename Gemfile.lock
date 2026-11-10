@@ -63,7 +63,7 @@ PATH
       mutex_m (~> 0.3)
       parallel (~> 1.19)
       pg (~> 1.6.1)
-      rack (~> 2.2.9)
+      rack (>= 2.2.9, < 3.3.0)
       rainbow (~> 3.0)
       rexml (~> 3.4.0)
       thor (~> 1.3)
@@ -115,7 +115,7 @@ PATH
   remote: gems/gitlab-safe_request_store
   specs:
     gitlab-safe_request_store (0.1.0)
-      rack (~> 2.2.8)
+      rack (>= 2.2.8, < 3.3.0)
       request_store
 
 PATH
@@ -396,7 +396,7 @@ GEM
       memory_profiler (~> 1)
     benchmark-perf (0.6.0)
     benchmark-trend (0.4.0)
-    bigdecimal (3.2.3)
+    bigdecimal (3.3.1)
     bindata (2.5.1)
     binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
@@ -475,7 +475,7 @@ GEM
       redis (>= 3.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    crass (1.0.6)
+    crass (1.0.8)
     creole (0.5.0)
     cronex (0.15.0)
       tzinfo
@@ -1305,16 +1305,16 @@ GEM
       plist (~> 3.1)
       train-core
       wmi-lite (~> 1.0)
-    oj (3.16.16)
+    oj (3.17.3)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
     oj-introspect (0.9.0)
       oj (>= 3.16.16)
-    omniauth (2.1.4)
-      hashie (>= 3.4.6)
+    omniauth (2.2.0)
+      hashie (>= 3.5.2)
       logger
-      rack (>= 2.2.3)
-      rack-protection
+      rack (>= 2.2.8)
+      rack-protection (>= 2.2.0)
     omniauth-alicloud (3.0.0)
       omniauth-oauth2 (~> 1.8)
     omniauth-atlassian-oauth2 (0.2.0)
@@ -1546,7 +1546,7 @@ GEM
       rubypants (~> 0.2)
     orm_adapter (0.5.0)
     os (1.1.4)
-    ostruct (0.6.1)
+    ostruct (0.6.3)
     pact (1.64.0)
       pact-mock_service (~> 3.0, >= 3.3.1)
       pact-support (~> 1.16, >= 1.16.9)
@@ -1640,7 +1640,7 @@ GEM
     pyu-ruby-sasl (0.0.3.3)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (2.2.23)
+    rack (2.2.25)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-attack (6.8.0)
@@ -1654,8 +1654,9 @@ GEM
       faraday-follow_redirects
       json-jwt (>= 1.11.0)
       rack (>= 2.1.0)
-    rack-protection (2.2.2)
-      rack
+    rack-protection (3.2.0)
+      base64 (>= 0.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rack-proxy (0.7.7)
       rack
     rack-session (1.0.2)
@@ -2392,9 +2393,9 @@ DEPENDENCIES
   oauth2 (~> 2.0)
   octokit (~> 9.0)
   ohai (~> 19.1.16)
-  oj (~> 3.16.0, >= 3.16.16)
+  oj (~> 3.17.3)
   oj-introspect (~> 0.9)
-  omniauth (~> 2.1.0)
+  omniauth (~> 2.2.0)
   omniauth-alicloud (~> 3.0.0)
   omniauth-atlassian-oauth2 (~> 0.2.0)
   omniauth-auth0 (~> 3.1)
@@ -2452,7 +2453,7 @@ DEPENDENCIES
   pry-rails (~> 0.3.9)
   pry-shell (~> 0.6.4)
   puma (~> 7.2)
-  rack (~> 2.2.9)
+  rack (~> 2.2.25)
   rack-attack (~> 6.8.0)
   rack-cors (~> 2.0.1)
   rack-oauth2 (~> 2.2.1)
